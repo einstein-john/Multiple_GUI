@@ -44,8 +44,8 @@ public class form_1 extends JFrame {
                 setVisible(false);//close from 1
                 form_2 frm2 = new form_2();//opening the second form
 
-                frm2.setTxtLabelName(txtName.getText());//sends to form 2
-                frm2.setTxtLabelSurname(txtSurname.getText());//sends to form 2
+                frm2.setTxtLabelName(txtName.getText());//sends to name text field form 2
+                frm2.setTxtLabelSurname(txtSurname.getText());//sends to surname text field form 2
                 if(maleRadioButton.isSelected())//is male radio button selected
                      frm2.setTxtLabelGender(maleRadioButton.getText());//sends to male radio button to form 2
                  else if(femaleRadioButton.isSelected()) //is female radio button selected
